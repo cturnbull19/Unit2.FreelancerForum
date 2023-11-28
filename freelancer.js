@@ -71,7 +71,7 @@ function render(){
 function addFreelancer() {
     const selectedName = randNames[Math.floor(Math.random() * randNames.length)]
     const selectedOccupation = randOccupations[Math.floor(Math.random() * randOccupations.length)]
-    const selectedPrice = "$" + Math.floor(Math.random() * 100)
+    const selectedPrice = Math.floor(Math.random() * 100)
 
     freelancers.push({name: selectedName, occupation: selectedOccupation, price: selectedPrice})
 
